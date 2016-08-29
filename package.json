@@ -1,0 +1,32 @@
+{
+  "name": "bruinentrepreneurs",
+  "version": "1.0.0",
+  "description": "Bruin Entrepreneurs Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "latest",
+    "body-parser": "latest",
+    "ejs": "2.5.1",
+    "express": "latest",
+    "lodash": "latest",
+    "mongoose": "latest",
+    "multer": "1.1.0",
+    "path": "latest",
+    "stripe": "latest",
+    "validator": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicchewy/be_website.git"
+  },
+  "author": "Bruin Entrepreneurs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epicchewy/be_website/issues"
+  },
+  "homepage": "https://github.com/epicchewy/be_website#readme"
+}
