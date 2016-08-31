@@ -1,0 +1,20 @@
+How to Slack
+
+Slack is going to be the main form of professional communication, and we will be enforcing that everyone use Slack for all BE related business. The FB group chat is for social events ONLY.
+
+*We recommend setting your account notification level to "Only direct messages or highlight words"*
+
+Getting Someone's Attention
+
+Use @replies only when you really need someones attention right at that moment. Recognize that you're about to break someone's focus on a task. If you can, try get as far as you can on a task independently. Then, leave comments for a teammate to respond to asynchronously. Assume that if you leave a message in a channel, a teammate will respond on their own time. It is on you to read all the messages in a channel where you are a core member of and respond to relevant messages. You can mention a name without the @ symbol to call someone's attention to that message for them to review on their own time. Press **Command + Shift + M** to see all the places you've been mentioned. 
+
+Transparency
+
+We encourage that you try have as many conversations in a public channel as possible so that everyone can be on the same page. If you think others wouldn't find any value in the conversation or it's a particularly sensitive topic then private messaging is useful. 
+
+Privacy
+
+Short-term contractors will **only have access to specific channels** that are relevant to them. That way you can rest assured that anything you share in the main company channels will be visible to only full teammates. *Be aware that anything you post in open channels can be viewed by future teammates. *
+
+* * *
+There you go! You're now set to have fluid converstions & will never have a miscommunication again… ever. 
