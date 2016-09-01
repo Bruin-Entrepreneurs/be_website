@@ -1,11 +1,13 @@
-.mainfont, .topfold, nav {
+.mainfont, .topfold, .navbar {
   font-family: Open Sans; }
 
 #blue {
   color: #00008B; }
 
 .topfold {
-  background-image: url("../assets/images/city.jpg"); }
+  background-image: url("../assets/images/city.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
   .topfold h1 {
     font-size: 32; }
   .topfold .mission {
@@ -13,12 +15,11 @@
   .topfold p {
     font-size: 26px; }
 
-nav {
-  padding: 100px 100px 100px 100px;
-  margin: 1000px 1000px 1000px 1000px; }
-  nav a {
+.navbar {
+  padding: 100px 100px 100px 100px; }
+  .navbar a {
     padding: 0px 10px 0px 10px; }
-  nav img {
+  .navbar img {
     height: 50px;
     width: 50px; }
 

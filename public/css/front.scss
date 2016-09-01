@@ -20,6 +20,8 @@ $BE-Blue: #00008B;
 .topfold {
 	@extend .mainfont;
 	background-image: url("../assets/images/city.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
 	h1 {
 		font-size: 32;
 	}
@@ -31,10 +33,9 @@ $BE-Blue: #00008B;
 	}
 }
 
-nav {
+.navbar {
 	@extend .mainfont;
 	padding: 100px 100px 100px 100px;
-	margin: 1000px 1000px 1000px 1000px;
 
 	a {
 		padding: 0px 10px 0px 10px;
