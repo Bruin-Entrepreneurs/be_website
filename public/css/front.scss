@@ -1,0 +1,53 @@
+$font-stack: Open Sans;
+$BE-Blue: #00008B;
+
+.mainfont {
+	font-family: $font-stack;
+}
+
+#blue {
+	color: $BE-Blue;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.topfold {
+	@extend .mainfont;
+	background-image: url("../assets/images/city.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+	h1 {
+		font-size: 32;
+	}
+	.mission {
+		font-size: 38px;
+	}
+	p {
+		font-size: 26px;
+	}
+}
+
+.navbar {
+	@extend .mainfont;
+	padding: 100px 100px 100px 100px;
+
+	a {
+		padding: 0px 10px 0px 10px;
+	}
+
+	img {
+		height: 50px;
+		width: 50px;
+	}
+}
+
+
