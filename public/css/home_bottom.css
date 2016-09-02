@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+/*.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}*/
+.col-4 {width: 33.33%;}
+/*.col-5 {width: 41.66%;}
+.col-55 {width: 45.84%}
+.col-6 {width: 50%;}
+.col-65 {width: 54.16%}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}*/
+
+.col-55 {width: 44%}
+.col-65 {width: 56%}
+
+.row {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #0077cc;
+    background: -webkit-linear-gradient(left top, #0077cc, #33aaff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0077cc, #33aaff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0077cc, #33aaff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0077cc, #33aaff); /* Standard syntax (must be last) */
+}
+#l_text {
+	margin: 0;
+	padding: 30px;
+	padding-top: 0px;
+	padding-left: 60px;
+	background-color: #f3f3f3;
+}
+#r_text {
+	margin: 0;
+	padding: 30px;
+	padding-top: 0px;
+	padding-right: 60px;
+	background-color: #f3f3f3;
+}
+#l_text p {
+	text-align: justify;
+}
+#r_text p {
+	text-align: justify;
+}
+.buttons {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#button {
+	text-align: center;
+	color: #f3f3f3;
+	background-color: #0077cc;
+    background: -webkit-linear-gradient(left top, #0077cc, #33aaff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0077cc, #33aaff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0077cc, #33aaff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0077cc, #33aaff); /* Standard syntax (must be last) */
+}
+#link {
+	text-decoration: none;
+	color: #f3f3f3;
+	font-family: 'Open Sans';
+}
+@media only screen and (max-width: 900px){
+	#blue {
+		display: none;
+	}
+	#l_text {
+		width: 100%;
+	}
+	#r_text {
+		width: 100%;
+	}
+}
+
+
+
