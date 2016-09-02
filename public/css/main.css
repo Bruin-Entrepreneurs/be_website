@@ -41,12 +41,17 @@ body {
       .splash .textarea .subscribe input {
         width: 350px;
         border: none;
-        padding: 15px 10px 10px 15px;
+        padding: 20px 15px 15px 20px;
         background-color: black;
-        color: white; }
+        color: white;
+        transition: .1s;
+        -o-transition: .1s;
+        -ms-transition: .1s;
+        -moz-transition: .1s;
+        -webkit-transition: .1s; }
       .splash .textarea .subscribe button {
         border: none;
-        padding: 15px 10px 10px 15px;
+        padding: 20px 15px 15px 20px;
         background-color: #4d4dff;
         color: white; }
   .splash .navi {
@@ -83,6 +88,6 @@ body {
     text-align: center;
     font-size: 26px;
     color: white;
-    max-width: 650px; }
+    width: 650px; }
 
 /*# sourceMappingURL=main.css.map */
