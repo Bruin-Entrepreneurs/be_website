@@ -1,27 +1,70 @@
-.mainfont, .topfold, .navbar {
-  font-family: Open Sans; }
+body {
+  font-family: Open Sans;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px; }
 
 #blue {
-  color: #00008B; }
+  color: #4d4dff; }
 
-.topfold {
+.splash {
   background-image: url("../assets/images/city.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  text-align: center; }
-  .topfold h1 {
-    font-size: 32; }
-  .topfold .mission {
-    font-size: 38px; }
-  .topfold p {
-    font-size: 26px; }
+  background-color: #4d4dff;
+  text-align: center;
+  min-height: 100%;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  color: #fff; }
+  .splash .textarea {
+    max-width: 850px;
+    width: 100%; }
+    .splash .textarea h1 {
+      font-size: 32px; }
+    .splash .textarea .mission {
+      max-width: 700px;
+      text-shadow: 2px 2px black;
+      font-size: 38px; }
+    .splash .textarea .subscribe {
+      margin: auto;
+      margin-top: 20px; }
+      .splash .textarea .subscribe input {
+        width: 350px;
+        border: none;
+        padding: 15px 10px 10px 15px;
+        background-color: black;
+        color: white; }
+      .splash .textarea .subscribe button {
+        border: none;
+        padding: 15px 10px 10px 15px;
+        background-color: #4d4dff;
+        color: white; }
+    .splash .textarea p {
+      font-size: 26px; }
 
 .navbar {
-  padding: 100px 100px 100px 100px; }
+  padding: 25px 0px 25px 0px; }
   .navbar a {
-    padding: 0px 10px 0px 10px; }
+    font-size: 14px;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    transition: .1s;
+    -o-transition: .1s;
+    -ms-transition: .1s;
+    -moz-transition: .1s;
+    -webkit-transition: .1s; }
+  .navbar a:hover {
+    color: #4d4dff; }
   .navbar img {
     height: 50px;
-    width: 50px; }
+    width: 50px;
+    vertical-align: middle; }
 
 /*# sourceMappingURL=main.css.map */

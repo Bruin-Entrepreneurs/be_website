@@ -1,8 +1,15 @@
 $font-stack: Open Sans;
-$BE-Blue: #00008B;
+$BE-Blue: #4d4dff;
 
-.mainfont {
+
+body {
 	font-family: $font-stack;
+	height: 100%;
+    width: 100%;
+    background: #fff;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 #blue {
@@ -17,37 +24,86 @@ $BE-Blue: #00008B;
   transform: translateY(-50%);
 }
 
-.topfold {
-	@extend .mainfont;
+.splash {
 	background-image: url("../assets/images/city.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
     background-repeat: no-repeat;
+    background-color: $BE-Blue;
+	text-align: center;
+	min-height: 100%;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+	color: #fff;
+	
 
-    text-align: center;
+    .textarea {
+	    max-width: 850px;
+	    width: 100%;
 
-	h1 {
-		font-size: 32;
-	}
-	.mission {
-		font-size: 38px;
-	}
-	p {
-		font-size: 26px;
+		h1 {
+			font-size: 32px;
+		}
+		.mission {
+			max-width: 700px;
+			text-shadow: 2px 2px black;
+			font-size: 38px;
+		}
+		
+		.subscribe {
+		   	margin: auto;
+		    margin-top: 20px;
+
+		    input {
+		    	width: 350px;
+		    	border: none;
+		    	padding: 15px 10px 10px 15px;
+		    	background-color: black;
+    			color: white;
+		    	
+		    }
+
+		    button {
+		    	border: none;
+		    	padding: 15px 10px 10px 15px;
+		    	background-color: $BE-Blue;
+    			color: white;
+		    }
+		}
+
+		p {
+			font-size: 26px;
+		}
 	}
 }
 
 .navbar {
-	@extend .mainfont;
-	padding: 100px 100px 100px 100px;
+	padding: 25px 0px 25px 0px;
 
 	a {
-		padding: 0px 10px 0px 10px;
+		font-size: 14px;
+		padding: 0px 16px 0px 16px;
+		text-decoration:none;
+		color: white;
+		vertical-align: middle;
+		transition:.1s;
+		-o-transition:.1s;
+	    -ms-transition:.1s;
+	    -moz-transition:.1s;
+	    -webkit-transition:.1s;
+	    
+	}
+
+	a:hover {
+    color: $BE-Blue;
 	}
 
 	img {
 		height: 50px;
 		width: 50px;
+		vertical-align: middle;
 	}
 }
+
 
 
