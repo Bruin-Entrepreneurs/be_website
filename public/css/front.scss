@@ -92,11 +92,12 @@ body {
 		}
 
 		li a {
-			padding: 15px 0px 0px 15px;
+			padding: 18px 0px 0px 18px;
 		    display: block;
 		    color: white;
 		    text-decoration: none;
-		    font-size: 20px;
+		    font-size: 18px;
+		    font-weight: 100;
 		    transition:.1s;
 			-o-transition:.1s;
 		    -ms-transition:.1s;
@@ -105,7 +106,7 @@ body {
 		}
 
 		li a:hover {
-	    	color: $BE-Blue;
+	    	color: grey;
 		}
 
 		img {
@@ -115,7 +116,7 @@ body {
 		}
 	} 
 
-	p {
+	.quote {
 		text-align: center;
 		font-size: 26px;
 		color: white;

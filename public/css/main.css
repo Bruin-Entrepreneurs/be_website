@@ -62,23 +62,24 @@ body {
       width: 300px;
       height: 100%; }
     .splash .navi li a {
-      padding: 15px 0px 0px 15px;
+      padding: 18px 0px 0px 18px;
       display: block;
       color: white;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 18px;
+      font-weight: 100;
       transition: .1s;
       -o-transition: .1s;
       -ms-transition: .1s;
       -moz-transition: .1s;
       -webkit-transition: .1s; }
     .splash .navi li a:hover {
-      color: #4d4dff; }
+      color: grey; }
     .splash .navi img {
       height: 50px;
       width: 50px;
       vertical-align: middle; }
-  .splash p {
+  .splash .quote {
     text-align: center;
     font-size: 26px;
     color: white;
