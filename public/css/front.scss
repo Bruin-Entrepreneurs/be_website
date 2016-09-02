@@ -14,6 +14,7 @@ body {
 
 #blue {
 	color: $BE-Blue;
+	display: inline;
 }
 
 @mixin vertical-align($position: relative) {
@@ -34,20 +35,22 @@ body {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 80px;
-	color: #fff;
 	
-
     .textarea {
-	    max-width: 850px;
+	    max-width: 650px;
 	    width: 100%;
-
+	    float: top left;
+	    padding: 100px 20px 0px 150px;
+	    text-align: left;
 		h1 {
 			font-size: 32px;
+			text-align: left;
+			color: white;
 		}
 		.mission {
-			max-width: 700px;
 			text-shadow: 2px 2px black;
 			font-size: 38px;
+			color: white;
 		}
 		
 		.subscribe {
@@ -60,7 +63,6 @@ body {
 		    	padding: 15px 10px 10px 15px;
 		    	background-color: black;
     			color: white;
-		    	
 		    }
 
 		    button {
@@ -71,39 +73,55 @@ body {
 		    }
 		}
 
-		p {
-			font-size: 26px;
+		
+	}
+
+	.navi {
+	padding: 25px 40px 25px 40px;
+	margin: 0px 0px 0px 100px;
+	float: right;
+	background-color: $BE-Blue;
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    width: 300px;
+		    height: 100%; 
+
 		}
-	}
-}
 
-.navbar {
-	padding: 25px 0px 25px 0px;
+		li a {
+			padding: 15px 0px 0px 15px;
+		    display: block;
+		    color: white;
+		    text-decoration: none;
+		    font-size: 20px;
+		    transition:.1s;
+			-o-transition:.1s;
+		    -ms-transition:.1s;
+		    -moz-transition:.1s;
+		    -webkit-transition:.1s;
+		}
 
-	a {
-		font-size: 14px;
-		padding: 0px 16px 0px 16px;
-		text-decoration:none;
+		li a:hover {
+	    	color: $BE-Blue;
+		}
+
+		img {
+			height: 50px;
+			width: 50px;
+			vertical-align: middle;
+		}
+	} 
+
+	p {
+		text-align: center;
+		font-size: 26px;
 		color: white;
-		vertical-align: middle;
-		transition:.1s;
-		-o-transition:.1s;
-	    -ms-transition:.1s;
-	    -moz-transition:.1s;
-	    -webkit-transition:.1s;
-	    
-	}
-
-	a:hover {
-    color: $BE-Blue;
-	}
-
-	img {
-		height: 50px;
-		width: 50px;
-		vertical-align: middle;
+		max-width: 650px;
 	}
 }
+
 
 
 

@@ -8,7 +8,8 @@ body {
   font-size: 14px; }
 
 #blue {
-  color: #4d4dff; }
+  color: #4d4dff;
+  display: inline; }
 
 .splash {
   background-image: url("../assets/images/city.jpg");
@@ -19,17 +20,21 @@ body {
   min-height: 100%;
   width: 100%;
   padding-top: 40px;
-  padding-bottom: 80px;
-  color: #fff; }
+  padding-bottom: 80px; }
   .splash .textarea {
-    max-width: 850px;
-    width: 100%; }
+    max-width: 650px;
+    width: 100%;
+    float: top left;
+    padding: 100px 20px 0px 150px;
+    text-align: left; }
     .splash .textarea h1 {
-      font-size: 32px; }
+      font-size: 32px;
+      text-align: left;
+      color: white; }
     .splash .textarea .mission {
-      max-width: 700px;
       text-shadow: 2px 2px black;
-      font-size: 38px; }
+      font-size: 38px;
+      color: white; }
     .splash .textarea .subscribe {
       margin: auto;
       margin-top: 20px; }
@@ -44,27 +49,38 @@ body {
         padding: 15px 10px 10px 15px;
         background-color: #4d4dff;
         color: white; }
-    .splash .textarea p {
-      font-size: 26px; }
-
-.navbar {
-  padding: 25px 0px 25px 0px; }
-  .navbar a {
-    font-size: 14px;
-    padding: 0px 16px 0px 16px;
-    text-decoration: none;
+  .splash .navi {
+    padding: 25px 40px 25px 40px;
+    margin: 0px 0px 0px 100px;
+    float: right;
+    background-color: #4d4dff; }
+    .splash .navi ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 300px;
+      height: 100%; }
+    .splash .navi li a {
+      padding: 15px 0px 0px 15px;
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      transition: .1s;
+      -o-transition: .1s;
+      -ms-transition: .1s;
+      -moz-transition: .1s;
+      -webkit-transition: .1s; }
+    .splash .navi li a:hover {
+      color: #4d4dff; }
+    .splash .navi img {
+      height: 50px;
+      width: 50px;
+      vertical-align: middle; }
+  .splash p {
+    text-align: center;
+    font-size: 26px;
     color: white;
-    vertical-align: middle;
-    transition: .1s;
-    -o-transition: .1s;
-    -ms-transition: .1s;
-    -moz-transition: .1s;
-    -webkit-transition: .1s; }
-  .navbar a:hover {
-    color: #4d4dff; }
-  .navbar img {
-    height: 50px;
-    width: 50px;
-    vertical-align: middle; }
+    max-width: 650px; }
 
 /*# sourceMappingURL=main.css.map */
