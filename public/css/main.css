@@ -51,9 +51,10 @@ body {
         color: white; }
   .splash .navi {
     padding: 25px 40px 25px 40px;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 60px 0px 0px;
     float: right;
-    background-color: #4d4dff; }
+    background-color: #4d4dff;
+    box-shadow: 10px 10px black; }
     .splash .navi ul {
       list-style-type: none;
       margin: 0;
