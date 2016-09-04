@@ -15,9 +15,9 @@
 .col-3 {width: 25%;}*/
 .col-4 {width: 33.33%;}
 /*.col-5 {width: 41.66%;}
-.col-55 {width: 45.84%}
-.col-6 {width: 50%;}
-.col-65 {width: 54.16%}
+.col-55 {width: 45.84%}*/
+/*.col-6 {width: 50%;}*/
+/*.col-65 {width: 54.16%}
 .col-7 {width: 58.33%;}
 .col-8 {width: 66.66%;}
 .col-9 {width: 75%;}
@@ -39,7 +39,7 @@
 }
 #section {
 	font-size: 40px;
-	padding-top: 40px;
+	padding-top: 10px;
 	letter-spacing: 3px;
 	margin: 0;
 	font-family: 'Open Sans';
@@ -75,25 +75,41 @@
 	text-align: justify;
 	line-height: 180%;
 }
-.buttons {
-	margin-left: 10%;
-	margin-right: 10%;
+.buttons2 {
+	padding: 0;
 }
-#button {
+.col-6 {
+	padding-left: 0;
+	padding-right: 0;
+	width: 50%;
 	text-align: center;
+}
+a {
+	text-decoration: none;
 	color: #f3f3f3;
+	font-family: 'Open Sans';
+	padding: 15px 20%;
 	background-color: #0077cc;
     background: -webkit-linear-gradient(left top, #0077cc, #33aaff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #0077cc, #33aaff); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #0077cc, #33aaff); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #0077cc, #33aaff); /* Standard syntax (must be last) */
+    font-weight: 500;
+    letter-spacing: 1px;
 }
-#link {
-	text-decoration: none;
-	color: #f3f3f3;
-	font-family: 'Open Sans';
+.col-6 a:hover {
+	color: #cccccc;
 }
-@media only screen and (max-width: 900px){
+
+@media only screen and (max-width: 1030px){
+	.col-55 {
+		width: 56%;
+	}
+	.col-65 {
+		width: 44%;
+	}
+}
+@media only screen and (max-width: 820px){
 	#blue {
 		display: none;
 	}
