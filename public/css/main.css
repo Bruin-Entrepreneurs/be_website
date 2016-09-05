@@ -87,7 +87,7 @@ body {
           border: 0; }
   .splash .navi {
     padding: 25px 20px 60px 20px;
-    margin: 0px 100px 0px 0px;
+    margin: 0px 100px 30px 0px;
     float: right;
     background-color: #3060FA;
     box-shadow: 10px 10px black; }
@@ -118,11 +118,21 @@ body {
 
 .quote {
   background-color: #1A1A35;
-  padding: 40px 40px 40px 40px;
-  margin: none; }
+  padding: 40px 60px 40px 60px;
+  margin: none;
+  text-align: center;
+  color: white; }
   .quote .text {
-    color: white;
-    text-align: center;
-    font-size: 26px; }
+    font-size: 22px; }
+  .quote .bigquote {
+    background-color: #0F285F;
+    margin: 50px 0px 20px 100px;
+    padding: 50px 40px 50px 40px;
+    box-shadow: 10px 10px black; }
+  .quote .smallquote {
+    margin: 20px 10px 20px 5px;
+    padding: 30px 30px 30px 30px;
+    background-color: #0B3A5F;
+    box-shadow: 10px 10px black; }
 
 /*# sourceMappingURL=main.css.map */
