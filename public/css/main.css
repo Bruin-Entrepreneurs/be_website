@@ -8,57 +8,86 @@ body {
   font-size: 14px; }
 
 #blue {
-  color: #4d4dff;
+  color: #3060FA;
   display: inline; }
+
+::-webkit-input-placeholder {
+  color: white; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: white; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white; }
+
+:-ms-input-placeholder {
+  color: white; }
 
 .splash {
   background-image: url("../assets/images/city.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #4d4dff;
+  background-color: #3060FA;
   text-align: center;
   min-height: 100%;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 5px;
   padding-bottom: 80px; }
   .splash .textarea {
     max-width: 650px;
     width: 100%;
     float: top left;
-    padding: 100px 20px 0px 150px;
+    padding: 250px 40px 0px 150px;
     text-align: left; }
     .splash .textarea h1 {
       font-size: 32px;
       text-align: left;
-      color: white; }
+      color: white;
+      margin: 0px 0px 35px 0px; }
     .splash .textarea .mission {
       text-shadow: 2px 2px black;
-      font-size: 38px;
-      color: white; }
+      font-size: 42px;
+      color: white;
+      opacity: .85; }
     .splash .textarea .subscribe {
-      margin: auto;
       margin-top: 20px; }
       .splash .textarea .subscribe input {
         width: 350px;
         border: none;
-        padding: 20px 15px 15px 20px;
+        padding: 20px 10px 20px 25px;
         background-color: black;
+        font-size: 12px;
         color: white;
+        opacity: .85; }
+      .splash .textarea .subscribe input:focus {
+        outline: none;
+        border: 1px solid;
+        border-color: white;
         transition: .1s;
         -o-transition: .1s;
         -ms-transition: .1s;
         -moz-transition: .1s;
         -webkit-transition: .1s; }
       .splash .textarea .subscribe button {
+        font-size: 13px;
         border: none;
-        padding: 20px 15px 15px 20px;
-        background-color: #4d4dff;
+        padding: 19px 18px 20px 22px;
+        background-color: #3060FA;
         color: white; }
+    .splash .textarea .icons a {
+      display: inline-block;
+      padding: 30px 70px 20px 0px; }
+      .splash .textarea .icons a img {
+        width: 35px;
+        height: 35px;
+        border: 0; }
   .splash .navi {
-    padding: 25px 40px 25px 40px;
-    margin: 0px 60px 0px 0px;
+    padding: 25px 20px 60px 20px;
+    margin: 0px 100px 0px 0px;
     float: right;
-    background-color: #4d4dff;
+    background-color: #3060FA;
     box-shadow: 10px 10px black; }
     .splash .navi ul {
       list-style-type: none;
@@ -67,27 +96,31 @@ body {
       width: 300px;
       height: 100%; }
     .splash .navi li a {
-      padding: 18px 0px 0px 18px;
+      padding: 18px 0px 18px 0px;
       display: block;
       color: white;
       text-decoration: none;
-      font-size: 18px;
-      font-weight: 100;
-      transition: .1s;
-      -o-transition: .1s;
-      -ms-transition: .1s;
-      -moz-transition: .1s;
-      -webkit-transition: .1s; }
+      font-size: 16px;
+      font-weight: 300;
+      transition: .3s;
+      -o-transition: .3s;
+      -ms-transition: .3s;
+      -moz-transition: .3s;
+      -webkit-transition: .3s; }
     .splash .navi li a:hover {
       color: grey; }
     .splash .navi img {
       height: 50px;
       width: 50px;
       vertical-align: middle; }
-  .splash .quote {
-    text-align: center;
-    font-size: 26px;
+
+.quote {
+  background-color: #1A1A35;
+  padding: 40px 40px 40px 40px;
+  margin: none; }
+  .quote .text {
     color: white;
-    width: 650px; }
+    text-align: center;
+    font-size: 26px; }
 
 /*# sourceMappingURL=main.css.map */
