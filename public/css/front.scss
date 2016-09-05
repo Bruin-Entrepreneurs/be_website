@@ -79,11 +79,11 @@ body {
 		    	outline:none;
 		    	border: 1px solid;
 		    	border-color: white;
-		    	transition:.1s;
-				-o-transition:.1s;
-		    	-ms-transition:.1s;
-		    	-moz-transition:.1s;
-		    	-webkit-transition:.1s;
+		    	transition:.2s;
+				-o-transition:.2s;
+		    	-ms-transition:.2s;
+		    	-moz-transition:.2s;
+		    	-webkit-transition:.2s;
 		    }
 
 		    button {
@@ -155,7 +155,7 @@ body {
 
 .quote {
 		background-color:#1A1A35 ;
-		padding: 40px 60px 40px 60px;
+		padding: 40px 80px 40px 80px;
 		margin: none;
 		text-align: center;
 		color: white;
@@ -167,6 +167,10 @@ body {
 			margin: 50px 0px 20px 100px;
 			padding: 50px 40px 50px 40px;
 			box-shadow: 10px 10px black;
+			img {
+				height: 30px;
+				width: 30px;
+			}
 		}
 		.smallquote {
 			margin: 20px 10px 20px 5px;
