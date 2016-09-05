@@ -76,13 +76,15 @@ body {
         padding: 19px 18px 20px 22px;
         background-color: #3060FA;
         color: white; }
-    .splash .textarea .icons a {
-      display: inline-block;
-      padding: 30px 70px 20px 0px; }
-      .splash .textarea .icons a img {
-        width: 35px;
-        height: 35px;
-        border: 0; }
+    .splash .textarea .icons {
+      padding: 30px 0px 20px 0px; }
+      .splash .textarea .icons a {
+        display: inline-block;
+        margin: 0px 70px 0px 0px; }
+        .splash .textarea .icons a img {
+          width: 35px;
+          height: 35px;
+          border: 0; }
   .splash .navi {
     padding: 25px 20px 60px 20px;
     margin: 0px 100px 0px 0px;
