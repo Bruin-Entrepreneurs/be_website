@@ -28,7 +28,7 @@
 .col-55 {width: 44%}
 .col-65 {width: 56%}
 
-.row {
+.row.martin-row {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	background-color: #0077cc;
@@ -84,7 +84,7 @@
 	width: 50%;
 	text-align: center;
 }
-a {
+.martin {
 	text-decoration: none;
 	color: #f3f3f3;
 	font-family: 'Open Sans';
