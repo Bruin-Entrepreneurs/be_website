@@ -44,7 +44,7 @@ body {
 
 .splash {
   background-image: url("../assets/images/city.jpg");
-  /* ALLEY OP */
+  /* ALLEY OOP */
   background-size: cover;
   background-repeat: no-repeat;
   background-color: gray;
@@ -63,7 +63,7 @@ body {
       font-family: Montserrat Bold;
       font-size: 32px;
       font-weight: 100 !important;
-      /* ALLEY OP */
+      /* ALLEY OOP */
       text-align: left;
       color: white;
       margin: 0px 0px 40px 0px; }
@@ -72,7 +72,12 @@ body {
       text-shadow: 2px 2px black;
       font-size: 42px;
       color: white;
-      opacity: .85; }
+      opacity: .85;
+      transition: width 1s;
+      -o-transition: width 1s;
+      -ms-transition: width 1s;
+      -moz-transition: width 1s;
+      -webkit-transition: width 1s; }
     .splash .textarea .subscribe {
       margin-top: 20px; }
       .splash .textarea .subscribe input {
@@ -96,12 +101,12 @@ body {
         font-size: 13px;
         border: none;
         padding: 19px 18px 20px 22px;
-        background-color: #3060FA;
+        background-color: #0F285F;
         color: white;
         font-weight: 600;
-        /* ALLEY OP */
+        /* ALLEY OOP */
         transition: width 3s;
-        /* ALLEY OP */
+        /* ALLEY OOP */
         -o-transition: width 3s;
         -ms-transition: width 3s;
         -moz-transition: width 3s;
@@ -125,7 +130,7 @@ body {
           font-size: 13px;
           border: none;
           padding: 19px 18px 20px 22px;
-          background-color: #3060FA;
+          background-color: #0F285F;
           color: white;
           font-weight: bold;
           transition: width 2s;
@@ -145,7 +150,7 @@ body {
     margin: 0px 100px 30px 0px;
     float: right;
     background-color: #3060FA;
-    box-shadow: 10px 10px black; }
+    box-shadow: 15px 15px #1A1A35; }
     .splash .navi ul {
       list-style-type: none;
       margin: 0;
@@ -184,18 +189,20 @@ body {
     display: inline;
     line-height: 170%; }
   .quote .bigquote {
-    background-color: #0F285F;
+    background: linear-gradient(to bottom right, #0F285F, #0B3A5F);
     margin: 85px 0px 20px 0px;
     padding: 60px 40px 60px 40px;
     box-shadow: 10px 10px black;
-    line-height: 200%; }
+    line-height: 200%;
+    font-size: 17px; }
     .quote .bigquote img {
       height: 30px;
       width: 170px; }
   .quote .smallquote {
+    background-color: #0F285F;
     margin: 20px 0px 20px 5px;
     padding: 40px 30px 40px 30px;
-    background-color: #0B3A5F;
+    font-size: 17px;
     box-shadow: 10px 10px black;
     line-height: 200%; }
 
