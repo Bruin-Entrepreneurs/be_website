@@ -1,5 +1,11 @@
+@font-face {
+  font-family: Montserrat Bold;
+  src: url(../assets/fonts/Montserrat-Bold.otf); }
+@font-face {
+  font-family: Avenir Next Light;
+  src: url(../assets/fonts/AvenirNextLTPro-Regular.otf); }
 body {
-  font-family: Open Sans;
+  font-family: Avenir Next Light;
   height: 100%;
   width: 100%;
   background: #fff;
@@ -11,25 +17,37 @@ body {
   color: #3060FA;
   display: inline; }
 
+#fatquotation {
+  color: gray;
+  font-size: 70px;
+  display: inline-block;
+  margin: none;
+  padding: none; }
+
 ::-webkit-input-placeholder {
-  color: white; }
+  color: white;
+  font-weight: 600; }
 
 :-moz-placeholder {
   /* Firefox 18- */
-  color: white; }
+  color: white;
+  font-weight: 600; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: white; }
+  color: white;
+  font-weight: 600; }
 
 :-ms-input-placeholder {
-  color: white; }
+  color: white;
+  font-weight: 600; }
 
 .splash {
   background-image: url("../assets/images/city.jpg");
+  /* ALLEY OP */
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #3060FA;
+  background-color: gray;
   text-align: center;
   min-height: 100%;
   width: 100%;
@@ -42,11 +60,15 @@ body {
     padding: 275px 25px 0px 150px;
     text-align: left; }
     .splash .textarea h1 {
+      font-family: Montserrat Bold;
       font-size: 32px;
+      font-weight: 100 !important;
+      /* ALLEY OP */
       text-align: left;
       color: white;
-      margin: 0px 0px 35px 0px; }
+      margin: 0px 0px 40px 0px; }
     .splash .textarea .mission {
+      margin: 0px 20px 0px 0px;
       text-shadow: 2px 2px black;
       font-size: 42px;
       color: white;
@@ -75,16 +97,49 @@ body {
         border: none;
         padding: 19px 18px 20px 22px;
         background-color: #3060FA;
-        color: white; }
+        color: white;
+        font-weight: 600;
+        /* ALLEY OP */
+        transition: width 3s;
+        /* ALLEY OP */
+        -o-transition: width 3s;
+        -ms-transition: width 3s;
+        -moz-transition: width 3s;
+        -webkit-transition: width 3s; }
+      @media (max-width: 650px) {
+        .splash .textarea .subscribe input {
+          max-width: 350px;
+          border: none;
+          padding: 20px 10px 20px 25px;
+          background-color: black;
+          font-size: 12px;
+          color: white;
+          opacity: .85;
+          transition: border 1s;
+          -o-transition: border 1s;
+          -ms-transition: border 1s;
+          -moz-transition: border 1s;
+          -webkit-transition: border 1s; }
+        .splash .textarea .subscribe button {
+          width: 350px;
+          font-size: 13px;
+          border: none;
+          padding: 19px 18px 20px 22px;
+          background-color: #3060FA;
+          color: white;
+          font-weight: bold;
+          transition: width 2s;
+          -o-transition: width 2s;
+          -ms-transition: width 2s;
+          -moz-transition: width 2s;
+          -webkit-transition: width 2s; } }
     .splash .textarea .icons {
       padding: 30px 0px 20px 0px; }
       .splash .textarea .icons a {
         display: inline-block;
         margin: 0px 70px 0px 0px; }
-        .splash .textarea .icons a img {
-          width: 35px;
-          height: 35px;
-          border: 0; }
+      .splash .textarea .icons .fa {
+        color: white; }
   .splash .navi {
     padding: 25px 20px 60px 20px;
     margin: 0px 100px 30px 0px;
@@ -103,7 +158,8 @@ body {
       color: white;
       text-decoration: none;
       font-size: 16px;
-      font-weight: 300;
+      font-weight: 100;
+      opacity: .8;
       transition: .3s;
       -o-transition: .3s;
       -ms-transition: .3s;
@@ -118,25 +174,27 @@ body {
 
 .quote {
   background-color: #1A1A35;
-  padding: 40px 120px 40px 120px;
+  padding: 40px 120px 20px 120px;
   margin: none;
   text-align: center;
   color: white; }
   .quote .text {
     font-size: 24px;
-    margin: 0px 60px 0px 60px; }
+    margin: 0px 0px 0px 0px;
+    display: inline;
+    line-height: 170%; }
   .quote .bigquote {
     background-color: #0F285F;
     margin: 85px 0px 20px 0px;
-    padding: 60px 50px 60px 50px;
+    padding: 60px 40px 60px 40px;
     box-shadow: 10px 10px black;
     line-height: 200%; }
     .quote .bigquote img {
       height: 30px;
-      width: 30px; }
+      width: 170px; }
   .quote .smallquote {
     margin: 20px 0px 20px 5px;
-    padding: 30px 30px 30px 30px;
+    padding: 40px 30px 40px 30px;
     background-color: #0B3A5F;
     box-shadow: 10px 10px black;
     line-height: 200%; }
