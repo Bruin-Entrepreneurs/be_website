@@ -21,6 +21,7 @@ body {
     font-size: 14px;
 }
 
+
 #blue {
 	color: $BE-Blue;
 	display: inline;
@@ -54,8 +55,6 @@ body {
    font-weight: 600;
 }
 
-
-
 .splash {
 	background-image: url("../assets/images/background.jpg"); /* ALLEY OOP */
 	background-size: cover;
@@ -87,7 +86,7 @@ body {
 			text-shadow: 2px 2px black;
 			font-size: 42px;
 			color: white;
-			opacity: .85;
+			opacity: .75;
 			transition: width 1s;
 			-o-transition: width 1s;
 		    -ms-transition: width 1s;
@@ -105,11 +104,11 @@ body {
 		    	font-size: 12px;
     			color: white;
     			opacity: .85;
-    			transition: border 1s;
-				-o-transition: border 1s;
-		    	-ms-transition: border 1s;
-		    	-moz-transition: border 1s;
-		    	-webkit-transition: border 1s;
+    			transition: border-color 1s;
+				-o-transition: border-color 1s;
+		    	-ms-transition: border-color 1s;
+		    	-moz-transition: border-color 1s;
+		    	-webkit-transition: border-color 1s;
 		    }
 
 		    input:focus{
@@ -125,42 +124,32 @@ body {
 		    	background-color: #0F285F;
     			color: white; 
     			font-weight: 600; /* ALLEY OOP */
-    			transition: width 3s; /* ALLEY OOP */
-				-o-transition: width 3s;
-		    	-ms-transition: width 3s;
-		    	-moz-transition: width 3s;
-		    	-webkit-transition: width 3s;
+    			transition: background-color .3s ease-in-out;
+    			-moz-transition: background-color .3s ease-in-out;
+  				-webkit-transition: background-color .3s ease-in-out;
+		    }
+
+		    button:hover {
+		    	background-color: $BE-Blue;
 		    }
 
 		    @media (max-width:900px) {
 
     		input {
-		    	max-width: 250px;
+		    	width: 100%;
 		    	border: none;
-		    	padding: 20px 10px 20px 25px;
-		    	background-color: black;
+		    	padding: 17px 10px 17px 25px;
 		    	font-size: 11px;
-    			color: white;
-    			opacity: .85;
-    			transition: border 1s;
-				-o-transition: border 1s;
-		    	-ms-transition: border 1s;
-		    	-moz-transition: border 1s;
-		    	-webkit-transition: border 1s;
 		    }
 		    button {
-		    	width: 250px;
+		    	width: 100%;
 		    	font-size: 12px;
-		    	border: none;
-		    	padding: 19px 18px 20px 22px;
-		    	background-color: #0F285F;
-    			color: white;
-    			font-weight: bold;
-    			transition: width 2s;
-				-o-transition: width 2s;
-		    	-ms-transition: width 2s;
-		    	-moz-transition: width 2s;
-		    	-webkit-transition: width 2s;
+		    	padding: 16px 18px 17px 22px;
+
+		    }
+
+		    button:hover {
+		    	background-color: $BE-Blue;
 		    }
 		}
 		}
@@ -173,6 +162,13 @@ body {
 		}
 		.fa {
 			color: white;
+			transition: color .3s ease-in-out;
+			-moz-transition: color .3s ease-in-out;
+  			-webkit-transition: color .3s ease-in-out;
+		}
+
+		.fa:hover {
+			color: $BE-Blue;
 		}
 	}
 	}
@@ -219,12 +215,42 @@ body {
 			vertical-align: middle;
 		}
 
+
+
 		
 	} 
 
 	.navbar {
 		display: none;
+		border-color: #000;
 	}
+
+	.navbar-header{
+    background-color: #342D4B !important;
+    border: none;
+
+	    
+	}
+	.navbar-collapse {
+	background-color: #342D4B !important;
+	color: #FFF !important;
+	transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+  	-webkit-transition: color .3s ease-in-out;
+
+  		li a {
+  		color: #FFF;
+  		}
+  		li a:hover {
+  		color: grey;
+  		}
+
+	}
+	
+	.navbar-toggle:hover {
+			background-color: #0F285F !important;
+		}
+
 
 	@media (max-width:900px) {
 		.navbar {
@@ -237,21 +263,37 @@ body {
 		}
 
 		.textarea {
-			padding: 100px 25px 0px 40px;
+			padding: 140px 15px 0px 20px;
+			h1 {
+				font-size: 26px;
+			}
+			.mission {
+				font-size: 28px;
+			}
+		}
+
+		.subscribe {
+			margin: 40px 0px 20px 0px !important;
+		}
+		.icons {
+			padding: 0px 0px 0px 0px;
+			margin-left: 20%;
 		}
 	}
 }
 
+
+
 .quote {
 		background-color: #0E1326;
-		padding: 40px 120px 20px 120px;
+		padding: 60px 120px 20px 120px;
 		margin: none;
 		text-align: center;
 		color: white;
-		
+		overflow-y: visible;
 		.text {
 			font-size: 24px;
-			margin: 0px 0px 0px 0px;
+			margin: 0px 0px 40px 0px;
 			display: inline;
 			line-height: 170%;
 		}
@@ -279,7 +321,7 @@ body {
 
 @media (max-width:900px) {
 	.quote {
-		padding: 30px 40px 20px 40px;
+		padding: 30px 25px 20px 25px;
 
 	}
 }
