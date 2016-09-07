@@ -57,7 +57,7 @@ body {
 
 
 .splash {
-	background-image: url("../assets/images/city.jpg"); /* ALLEY OOP */
+	background-image: url("../assets/images/background.jpg"); /* ALLEY OOP */
 	background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
@@ -118,9 +118,9 @@ body {
 		    }
 
 		    button {
-		    	font-size: 13px;
+		    	font-size: 14px;
 		    	border: none;
-		    	padding: 19px 18px 20px 22px;
+		    	padding: 18px 18px 19px 22px;
 		    	background-color: #0F285F;
     			color: white; 
     			font-weight: 600; /* ALLEY OOP */
@@ -218,7 +218,7 @@ body {
 }
 
 .quote {
-		background-color: #1A1A35;
+		background-color: #0E1427;
 		padding: 40px 120px 20px 120px;
 		margin: none;
 		text-align: center;
