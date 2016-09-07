@@ -20,9 +20,10 @@ function subscribe (email) {
     data: { email: email },
     error: (err) => {
       console.log('error', err)
+      alert("Subscribe unsuccessful. Please try again later.")
     },
     success: (data) => {
-      alert("Congratulations! You are now subscribed. Check your email for the confirmation!")
+      alert("Congratulations! You have successfully subscribed. Check your email for the confirmation!")
     }, dataType: 'json'
   })
 }
