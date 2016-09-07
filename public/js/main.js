@@ -5,7 +5,6 @@ $(document).ready(() => {
     const valid = validateEmail(email)
     if(valid){
       subscribe(email)
-      alert("Congratulations! You are now subscribed. Check your email for the confirmation!")
     }
     else{
       console.log('error')
@@ -23,6 +22,7 @@ function subscribe (email) {
       console.log('error', err)
     },
     success: (data) => {
+      alert("Congratulations! You are now subscribed. Check your email for the confirmation!")
     }, dataType: 'json'
   })
 }
