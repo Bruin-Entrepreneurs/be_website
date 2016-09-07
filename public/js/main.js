@@ -5,9 +5,10 @@ $(document).ready(() => {
     const valid = validateEmail(email)
     if(valid){
       subscribe(email)
+      alert("Congratulations! You are now subscribed. Check your email for the confirmation!")
     }
     else{
-      console.log('error', err)
+      console.log('error')
     }
   })
 })
