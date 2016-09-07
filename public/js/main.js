@@ -2,7 +2,13 @@ $(document).ready(() => {
   $( "#searchForm" ).submit(function( event ) {
     event.preventDefault()
     const email = $("[name='subscribeForm']").val()
-    subscribe(email)
+    const valid = validateEmail(email)
+    if(valid){
+      subscribe(email)
+    }
+    else{
+      console.log('error', err)
+    }
   })
 })
 
