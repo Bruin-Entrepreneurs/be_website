@@ -1,6 +1,12 @@
 .bottom_half {
 	background-color:#f3f3f3;
 	background:#f3f3f3;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	/*width: 100%;*/
 }
 * {
     box-sizing: border-box;
@@ -33,12 +39,8 @@
 .col-65 {width: 56%}
 
 .martin-row {
-	/*width: 100%;
-	border: solid 1px black;*/
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: -70px;
-	margin-right: -70px;
 	background-color: #0077cc;
     background: -webkit-linear-gradient(left top, #0077cc, #33aaff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #0077cc, #33aaff); /* For Opera 11.1 to 12.0 */
@@ -103,7 +105,6 @@
 	padding-right: 0;
 	width: 50%;
 	text-align: center;
-	/*border: solid 1px black;*/
 }
 .button {
 	text-decoration: none;
