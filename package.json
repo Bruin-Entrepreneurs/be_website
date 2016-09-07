@@ -13,6 +13,8 @@
     "ejs": "2.5.1",
     "express": "^4.14.0",
     "lodash": "latest",
+    "mailchimp": "1.2.0",
+    "mailchimp-api": "2.0.7",
     "mongoose": "latest",
     "multer": "^1.1.0",
     "path": "latest",
