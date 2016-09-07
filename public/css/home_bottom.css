@@ -1,3 +1,7 @@
+.bottom_half {
+	background-color:#f3f3f3;
+	background:#f3f3f3;
+}
 * {
     box-sizing: border-box;
 }
@@ -28,9 +32,13 @@
 .col-55 {width: 44%}
 .col-65 {width: 56%}
 
-.row.martin-row {
+.martin-row {
+	/*width: 100%;
+	border: solid 1px black;*/
 	margin-top: 30px;
 	margin-bottom: 30px;
+	margin-left: -70px;
+	margin-right: -70px;
 	background-color: #0077cc;
     background: -webkit-linear-gradient(left top, #0077cc, #33aaff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #0077cc, #33aaff); /* For Opera 11.1 to 12.0 */
@@ -39,10 +47,12 @@
 }
 #section {
 	font-size: 40px;
-	padding-top: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	letter-spacing: 3px;
 	margin: 0;
 	font-family: 'Open Sans';
+	font-weight: 700;
 }
 .stretch {
 	display: inline-block;
@@ -55,10 +65,11 @@
 }
 #l_text {
 	margin: 0;
-	padding: 30px;
+	padding: 40px;
 	padding-top: 0px;
 	padding-left: 150px;
 	background-color: #f3f3f3;
+	padding-bottom: 30px;
 }
 #r_text {
 	margin: 0;
@@ -66,28 +77,39 @@
 	padding-top: 0px;
 	padding-right: 150px;
 	background-color: #f3f3f3;
+	padding-bottom: 30px;
 }
 #l_text p {
 	text-align: justify;
 	line-height: 180%;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-weight: 100;
 }
 #r_text p {
 	text-align: justify;
 	line-height: 180%;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-weight: 100;
 }
 .buttons2 {
 	padding: 0;
+	margin-top: 15px;
+	margin-bottom: 0px;
 }
 .col-6 {
 	padding-left: 0;
 	padding-right: 0;
 	width: 50%;
 	text-align: center;
+	/*border: solid 1px black;*/
 }
-.martin {
+.button {
 	text-decoration: none;
 	color: #f3f3f3;
 	font-family: 'Open Sans';
+	font-size: 16px;
 	padding: 15px 20%;
 	background-color: #0077cc;
     background: -webkit-linear-gradient(left top, #0077cc, #33aaff); /* For Safari 5.1 to 6.0 */
@@ -99,6 +121,7 @@
 }
 .col-6 a:hover {
 	color: #cccccc;
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 1030px){
