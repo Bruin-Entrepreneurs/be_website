@@ -259,4 +259,8 @@ String.prototype.rightChars = function(n){
   OrderlyTyperInterval = function () {
     return $.OrderlyTyper.options.OrderlyTyperInterval;
   };
+
+  function emailButton() {
+    document.getElementById("emailSubscribe").submit();
+  }
 })(jQuery);
