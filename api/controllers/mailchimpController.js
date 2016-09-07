@@ -5,7 +5,7 @@ module.exports = {
 }
 
 function subscribe (req, res) { // POST REQ to subscribe email to list
-  if (req.body && req.body.email) {
+  if (req.body && validateEmail(req.body.email)) {
     mc.lists.subscribe({id: config.MAILCHIMP_LIST_ID, email: {email: req.body.email}}, (data) => {
       res.status(200).json({message: 'Successfully added to email list'})
     }, (error) => {
