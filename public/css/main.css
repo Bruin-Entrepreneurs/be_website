@@ -215,6 +215,8 @@ body {
     line-height: 170%; }
   .quote .bigquote {
     background: linear-gradient(to bottom right, #0F285F, #0B3A5F);
+    width: 90%;
+    float: right;
     margin: 85px 0px 20px 0px;
     padding: 60px 40px 60px 40px;
     box-shadow: 10px 10px #091839;
@@ -225,6 +227,7 @@ body {
       width: 170px; }
   .quote .smallquote {
     background-color: #0F285F;
+    width: 80%;
     margin: 20px 0px 20px 5px;
     padding: 40px 30px 40px 30px;
     font-size: 17px;
@@ -233,6 +236,12 @@ body {
 
 @media (max-width: 900px) {
   .quote {
-    padding: 30px 25px 20px 25px; } }
+    padding: 30px 25px 20px 25px; }
+    .quote .bigquote {
+      width: 100%;
+      float: none; }
+    .quote .smallquote {
+      width: 100%;
+      float: none; } }
 
 /*# sourceMappingURL=main.css.map */
