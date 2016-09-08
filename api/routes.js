@@ -25,13 +25,16 @@ const config = require('../config')
 
 // Declare controllers here
 
-// Example: 
-// universitiesController = require('../controllers/universitiesController')
+const mailchimpController = require('./controllers/mailchimpController')
 
 // Declare routes below
 
 router.get('/', (req, res) => {
   res.render('index')
 })
+
+// HTTP Requests
+
+router.post('/subscribe', mailchimpController.subscribe)
 
 module.exports = router

@@ -1,7 +1,5 @@
 module.exports = {
-  AWS_ACCESS_KEY: process.env.AWS_ACCESS_KEY,
-  AWS_SECRET_KEY: process.env.AWS_SECRET_KEY,
-  MONGOURL: process.env.MONGODB_URI || 'mongodb://localhost:27017/YMAA',
-  S3_BUCKET: process.env.S3_BUCKET,
-  STRIPE_KEY: 'test-key'
+  MAILCHIMP_API_KEY: process.env.MAILCHIMP_API_KEY || '0b1111389e3381feeb3ad8c9f197d745-us7',
+  MAILCHIMP_LIST_ID: process.env.MAILCHIMP_LIST_ID || 'd8e5d9c34d',
+  MONGOURL: process.env.MONGODB_URI || 'mongodb://localhost:27017/bruin_entrepreneurs'
 }
