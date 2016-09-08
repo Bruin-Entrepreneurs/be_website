@@ -3,11 +3,15 @@ const path = require('path')
 const multer = require('multer')
 const bodyParser = require('body-parser')
 const config = require('./config')
-
+const mcapi = require('mailchimp-api')
+// const MailChimpAPI = require('mailchimp').MailChimpAPI
+// const apiKey = config.MAILCHIMP_API_KEY
+// const MailChimpExportAPI = require('mailchimp').MailChimpExportAPI
 // Initialize Express App with routes
 
 const app = new express()
 const routes = require('./api/routes')
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.set('view engine', 'html')
@@ -24,6 +28,10 @@ app.use((req, res, next) => {
   next()
 })
 app.use('/', routes)
+
+// Mailchimp integration
+
+global.mc = new mcapi.Mailchimp(config.MAILCHIMP_API_KEY)
 
 // Mongo configuration
 
