@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: Montserrat Bold;
   src: url(../assets/fonts/Montserrat-Bold.otf); }
@@ -111,7 +112,7 @@ body {
         -webkit-transition: background-color .2s ease-in-out; }
       .splash .textarea .subscribe button:hover {
         background-color: #3060FA; }
-      @media (max-width: 700px) {
+      @media (max-width: 550px) {
         .splash .textarea .subscribe input {
           width: 100%;
           border: none;
@@ -125,7 +126,7 @@ body {
       padding: 30px 0px 20px 0px; }
       .splash .textarea .icons a {
         display: inline-block;
-        margin: 0px 70px 0px 0px; }
+        margin: 0px 67px 0px 3px; }
       .splash .textarea .icons .fa {
         color: white;
         transition: color .2s ease-in-out;
@@ -168,12 +169,16 @@ body {
   .splash .navbar {
     display: none;
     border: none; }
+  .splash .navbar-default {
+    background-color: rgba(45, 41, 71, 0.5) !important; }
   .splash .navbar-header {
-    background-color: #342D4B !important;
-    border: none; }
+    background-color: rgba(45, 41, 71, 0.5) !important;
+    border: none;
+    position: fixed; }
   .splash .navbar-collapse {
-    background-color: #342D4B !important;
+    background-color: rgba(45, 41, 71, 0.5) !important;
     color: #FFF !important;
+    position: fixed;
     transition: color .3s ease-in-out;
     -moz-transition: color .3s ease-in-out;
     -webkit-transition: color .3s ease-in-out; }
@@ -183,20 +188,28 @@ body {
       color: grey; }
   .splash .navbar-toggle:hover {
     background-color: #0F285F !important; }
-  @media (max-width: 900px) {
+  @media (max-width: 1180px) {
     .splash .navbar {
       display: inline;
       color: #0B3A5F; }
     .splash .navi {
       display: none; }
     .splash .textarea {
-      padding: 140px 15px 0px 20px; }
+      padding: 140px 25px 0px 35px; }
+      .splash .textarea h1 {
+        font-size: 30px; }
+      .splash .textarea .mission {
+        font-size: 34px; }
+    .splash .subscribe {
+      margin: 40px 0px 20px 0px !important; } }
+  @media (max-width: 550px) {
+    .splash .textarea {
+      padding: 140px 15px 0px 20px;
+      text-align: center; }
       .splash .textarea h1 {
         font-size: 26px; }
       .splash .textarea .mission {
         font-size: 28px; }
-    .splash .subscribe {
-      margin: 40px 0px 20px 0px !important; }
     .splash .icons {
       padding: 0px 0px 0px 0px;
       margin-left: 20%; } }
@@ -207,19 +220,36 @@ body {
   margin: none;
   text-align: center;
   color: white;
-  overflow-y: visible; }
+  overflow-y: visible;
+  overflow-x: hidden; }
   .quote .text {
     font-size: 24px;
     margin: 0px 0px 200px 0px;
     display: inline;
     line-height: 170%; }
+  .quote q {
+    quotes: "“" "”" "‘" "’"; }
+  .quote .text::before {
+    content: open-quote;
+    color: gray;
+    font-size: 70px;
+    display: inline-block;
+    margin: none;
+    padding: none; }
+  .quote .text::after {
+    content: close-quote;
+    color: gray;
+    font-size: 70px;
+    display: inline-block;
+    margin: none;
+    padding: none; }
   .quote .bigquote {
     background: linear-gradient(to bottom right, #0F285F, #0B3A5F);
     width: 90%;
     float: right;
     margin: 85px 0px 20px 0px;
     padding: 60px 40px 60px 40px;
-    box-shadow: 10px 10px #091839;
+    box-shadow: 10px 10px rgba(9, 24, 57, 0.85);
     line-height: 200%;
     font-size: 17px; }
     .quote .bigquote img {
@@ -231,10 +261,10 @@ body {
     margin: 20px 0px 20px 5px;
     padding: 40px 30px 40px 30px;
     font-size: 17px;
-    box-shadow: 10px 10px #091839;
+    box-shadow: 10px 10px rgba(9, 24, 57, 0.85);
     line-height: 200%; }
 
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
   .quote {
     padding: 30px 25px 20px 25px; }
     .quote .bigquote {
