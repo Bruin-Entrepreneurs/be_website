@@ -35,14 +35,14 @@ global.mc = new mcapi.Mailchimp(config.MAILCHIMP_API_KEY)
 
 // Mongo configuration
 
-// const mongoose = require('mongoose')
-// mongoose.connect(config.MONGOURL, (error) => {
-//   if (error) {
-//     console.error('Mongoose Connection: ERROR')
-//     throw error;
-//   }
-//   console.log('Mongoose Connection: Success')
-// })
+const mongoose = require('mongoose')
+mongoose.connect(config.MONGOURL, (error) => {
+  if (error) {
+    console.error('Mongoose Connection: ERROR')
+    throw error;
+  }
+  console.log('Mongoose Connection: Success')
+})
 
 // Fire up app
 
