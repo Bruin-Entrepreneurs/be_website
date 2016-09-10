@@ -152,9 +152,12 @@
 	background-color: #0e1427;
 	margin: 0;
 	margin-bottom: 0;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-family: 'Open Sans';
 	color: #cccccc;
+	/*padding-left: 100px;
+	padding-right: 100px;*/
 }
 
 #footer {
@@ -174,7 +177,7 @@
 
 
 
-.col-2 {
+/*.col-2 {
 	text-align: center;
 	text-decoration: none;
 	color: #cccccc;
@@ -182,7 +185,7 @@
 .col-2 a:hover {
 	color: #3060fa;
 	text-decoration: none;
-}
+}*/
 .link {
 	font-size: 17px;
 	font-weight: 600;
@@ -190,14 +193,13 @@
 	margin: 0;
 	padding: 0;
 }
-.col-3 {
+/*.col-3 {
 	text-align: center;
 }
 .col-3 span {
 	font-size: 17px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	/*border: solid 1px white;*/
 	margin: 0;
 	padding: 0;
 	margin-left: 15px;
@@ -205,17 +207,46 @@
 .col-3 a:hover {
 	color: #3060fa;
 	text-decoration: none;
-}
+}*/
 #head {
 	text-align: center;
 	margin: 15px;
+	margin-top: 30px;
 }
 #sign_off {
 	text-align: center;
 }
+#heart {
+	display: inline;
+}
 
 
-@media only screen and (max-width: 1030px){
+.bottom {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.one {
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.two {
+	margin-left: 30px;
+	margin-right: 30px;
+	display: inline-block;
+}
+#icon {
+	margin-right: 20px;
+}
+.bottom a:hover {
+	color: #3060fa;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1045px){
 	.martin-row {
 		margin: 30px;
 	}
@@ -230,6 +261,10 @@
 		padding-left: 40px;
 		padding-right: 0px;
 	}*/
+	.one {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
 }
 @media only screen and (max-width: 855px){
 	#l_text {
@@ -251,6 +286,35 @@
 	.foot .right {
 		width: 100%;
 	}*/
+	.one {
+		width: 33%;
+		margin-left: 0px;
+		margin-right: 0px;
+		/*border: solid 1px white;*/
+	}
+	.two {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#icon {
+		margin-right: 10px;
+	}
+	.foot {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media only screen and (max-width: 630px){
+	.two {
+		width: 40%;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		/*border:solid 1px white;*/
+	}
+	.one {
+		width: 40%;
+	}
 }
 
 
