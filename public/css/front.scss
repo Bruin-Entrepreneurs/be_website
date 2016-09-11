@@ -1,0 +1,382 @@
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(../assets/fonts/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: Avenir Next Light;
+    src: url(../assets/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+$font-stack: Avenir Next Light;
+$BE-Blue: #3060FA;
+
+body {
+	font-family: $font-stack;
+	height: 100%;
+    width: 100%;
+    background: #fff;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+#blue {
+	color: $BE-Blue;
+	display: inline;
+}
+
+#fatquotation {
+	color: gray;
+	font-size: 70px;
+	display: inline-block;
+	margin: none;
+	padding: none;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   font-weight: 600;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+   font-weight: 600;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white; 
+   font-weight: 600; 
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+   font-weight: 600;
+}
+
+.splash {
+	background-image: url("../assets/images/background.jpg"); /* ALLEY OOP */
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+	text-align: center;
+	min-height: 100%;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 80px;
+	
+    .textarea {
+	    max-width: 700px;
+	    width: 100%;
+	    float: top left;
+	    padding: 275px 25px 0px 150px;
+	    text-align: left;
+		h1 {
+			font-family: Montserrat Bold!important;
+			font-size: 32px;
+			font-weight: 500 !important; /* ALLEY OOP */
+			text-align: left;
+			color: white;
+			margin: 0px 0px 40px 0px;
+			display: inline-block;
+		}
+	
+		.mission {
+			margin: 0px 20px 0px 0px;
+			text-shadow: 2px 2px black;
+			font-size: 42px;
+			color: white;
+			opacity: .75;
+			transition: width 1s;
+			-o-transition: width 1s;
+		    -ms-transition: width 1s;
+		    -moz-transition: width 1s;
+		    -webkit-transition: width 1s;
+		}
+		
+		.subscribe {
+		    margin-top: 20px;
+		    input {
+		    	width: 350px;
+		    	border: none;
+		    	padding: 20px 10px 20px 25px;
+		    	background-color: black;
+		    	font-size: 12px;
+    			color: white;
+    			opacity: .85;
+    			transition: border-color 1s;
+				-o-transition: border-color 1s;
+		    	-ms-transition: border-color 1s;
+		    	-moz-transition: border-color 1s;
+		    	-webkit-transition: border-color 1s;
+		    }
+
+		    input:focus{
+		    	outline:none;
+		    	border: 1px solid;
+		    	border-color: white;
+		    }
+
+		    button {
+		    	font-size: 14px;
+		    	border: none;
+		    	padding: 18px 18px 19px 22px;
+		    	background-color: #0F285F;
+    			color: white; 
+    			font-weight: 600; /* ALLEY OOP */
+    			transition: background-color .2s ease-in-out;
+    			-moz-transition: background-color .2s ease-in-out;
+  				-webkit-transition: background-color .2s ease-in-out;
+		    }
+
+		    button:hover {
+		    	background-color: $BE-Blue;
+		    }
+
+		    @media (max-width:550px) {
+
+    		input {
+		    	width: 100%;
+		    	border: none;
+		    	padding: 17px 10px 17px 25px;
+		    	font-size: 11px;
+		    }
+		    button {
+		    	width: 100%;
+		    	font-size: 12px;
+		    	padding: 16px 18px 17px 22px;
+
+		    }
+
+		}
+
+		}
+
+		.icons {
+		padding: 30px 0px 20px 0px;
+		a {
+			display: inline-block;
+			margin: 0px 67px 0px 3px;
+		}
+		.fa {
+			color: white;
+			transition: color .2s ease-in-out;
+			-moz-transition: color .2s ease-in-out;
+  			-webkit-transition: color .2s ease-in-out;
+		}
+
+		.fa:hover {
+			color: $BE-Blue;
+		}
+	}
+	}
+
+	.navi {
+	padding: 25px 20px 60px 20px;
+	margin: 0px 100px 30px 0px;
+	float: right;
+	background-color: $BE-Blue;
+	box-shadow: 15px 15px #1A1A35;
+
+		
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    width: 300px;
+		    height: 100%;
+		    visibility: visible;
+		}
+
+		li a {
+			padding: 18px 0px 18px 0px;
+		    display: block;
+		    color: white;
+		    text-decoration: none;
+		    font-size: 16px;
+		    font-weight: 100;
+		    opacity: .8;
+		    transition:.3s;
+			-o-transition:.3s;
+		    -ms-transition:.3s;
+		    -moz-transition:.3s;
+		    -webkit-transition:.3s;
+		}
+
+		li a:hover {
+	    	color: grey;
+		}
+
+		img {
+			height: 50px;
+			width: 50px;
+			vertical-align: middle;
+		}
+
+
+
+	} 
+
+	.navbar {
+		display: none;
+		border: none;
+	}
+
+	.navbar-default {
+	background-color: rgba(45,41,71,.5) !important;
+	}
+
+	.navbar-header{
+    background-color: rgba(45,41,71,.5) !important;
+    border: none;
+    position: fixed;
+	}
+	.navbar-collapse {
+	background-color: rgba(45,41,71,.5) !important;
+	color: #FFF !important;
+	position: fixed;
+	transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+  	-webkit-transition: color .3s ease-in-out;
+
+  		li a {
+  		color: #FFF;
+  		}
+  		li a:hover {
+  		color: grey;
+  		}
+
+	}
+	
+	.navbar-toggle:hover {
+			background-color: #0F285F !important;
+		}
+
+
+	@media (max-width:1180px) {
+		.navbar {
+			display: inline;
+			color: #0B3A5F;
+		}
+
+		.navi {
+			display: none;
+		}
+
+		.textarea {
+			padding: 140px 25px 0px 35px;
+			h1 {
+				font-size: 30px;
+			}
+			.mission {
+				font-size: 34px;
+			}
+		}
+
+		.subscribe {
+			margin: 40px 0px 20px 0px !important;
+		}
+		
+	}
+
+	@media (max-width:550px) {
+		.textarea {
+			padding: 140px 15px 0px 20px;
+			text-align: center;
+			h1 {
+				font-size: 26px;
+			}
+			.mission {
+				font-size: 28px;
+			}
+		}
+		.icons {
+			padding: 0px 0px 0px 0px;
+			margin-left: 20%;
+		}
+
+	}
+}
+
+
+
+.quote {
+		background-color: #0E1326;
+		padding: 60px 120px 20px 120px;
+		margin: none;
+		text-align: center;
+		color: white;
+		overflow-y: visible;
+		overflow-x: hidden;
+		.text {
+			font-size: 24px;
+			margin: 0px 0px 200px 0px;
+			display: inline;
+			line-height: 170%;
+		}
+
+		q {
+  		quotes: "“" "”" "‘" "’";
+		}
+		.text::before {
+			content: open-quote;
+			color: gray;
+			font-size: 70px;
+			display: inline-block;
+			margin: none;
+			padding: none;
+
+		}
+		.text::after {
+			content: close-quote;
+			color: gray;
+			font-size: 70px;
+			display: inline-block;
+			margin: none;
+			padding: none;
+
+		}
+
+		.bigquote {
+			background: linear-gradient(to bottom right, #0F285F, #0B3A5F);
+			width: 90%;
+			float: right;
+			margin: 85px 0px 20px 0px;
+			padding: 60px 40px 60px 40px;
+			box-shadow: 10px 10px rgba(9,24,57,.85);
+			line-height: 200%;
+			font-size: 17px;
+			img {
+				height: 30px;
+				width: 170px;
+			}
+		}
+
+		.smallquote {
+			background-color: #0F285F;
+			width: 80%;
+			margin: 20px 0px 20px 5px;
+			padding: 40px 30px 40px 30px;
+			font-size: 17px;
+			box-shadow: 10px 10px rgba(9,24,57,.85);
+			line-height: 200%;
+		}
+}
+
+@media (max-width:1180px) {
+	.quote {
+		padding: 30px 25px 20px 25px;
+
+		.bigquote {
+			width: 100%;
+			float: none;
+		}
+
+		.smallquote {
+			width: 100%;
+			float: none;
+		}
+	}
+}
+
+
