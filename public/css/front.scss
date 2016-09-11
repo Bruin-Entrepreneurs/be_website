@@ -21,7 +21,6 @@ body {
     font-size: 14px;
 }
 
-
 #blue {
 	color: $BE-Blue;
 	display: inline;
@@ -81,6 +80,7 @@ body {
 			margin: 0px 0px 40px 0px;
 			display: inline-block;
 		}
+	
 		.mission {
 			margin: 0px 20px 0px 0px;
 			text-shadow: 2px 2px black;
@@ -133,7 +133,7 @@ body {
 		    	background-color: $BE-Blue;
 		    }
 
-		    @media (max-width:700px) {
+		    @media (max-width:550px) {
 
     		input {
 		    	width: 100%;
@@ -156,7 +156,7 @@ body {
 		padding: 30px 0px 20px 0px;
 		a {
 			display: inline-block;
-			margin: 0px 70px 0px 0px;
+			margin: 0px 67px 0px 3px;
 		}
 		.fa {
 			color: white;
@@ -215,7 +215,6 @@ body {
 
 
 
-		
 	} 
 
 	.navbar {
@@ -223,14 +222,19 @@ body {
 		border: none;
 	}
 
+	.navbar-default {
+	background-color: rgba(45,41,71,.5) !important;
+	}
+
 	.navbar-header{
-    background-color: #342D4B !important;
+    background-color: rgba(45,41,71,.5) !important;
     border: none;
-	    
+    position: fixed;
 	}
 	.navbar-collapse {
-	background-color: #342D4B !important;
+	background-color: rgba(45,41,71,.5) !important;
 	color: #FFF !important;
+	position: fixed;
 	transition: color .3s ease-in-out;
 	-moz-transition: color .3s ease-in-out;
   	-webkit-transition: color .3s ease-in-out;
@@ -249,7 +253,7 @@ body {
 		}
 
 
-	@media (max-width:900px) {
+	@media (max-width:1180px) {
 		.navbar {
 			display: inline;
 			color: #0B3A5F;
@@ -260,7 +264,25 @@ body {
 		}
 
 		.textarea {
+			padding: 140px 25px 0px 35px;
+			h1 {
+				font-size: 30px;
+			}
+			.mission {
+				font-size: 34px;
+			}
+		}
+
+		.subscribe {
+			margin: 40px 0px 20px 0px !important;
+		}
+		
+	}
+
+	@media (max-width:550px) {
+		.textarea {
 			padding: 140px 15px 0px 20px;
+			text-align: center;
 			h1 {
 				font-size: 26px;
 			}
@@ -268,14 +290,11 @@ body {
 				font-size: 28px;
 			}
 		}
-
-		.subscribe {
-			margin: 40px 0px 20px 0px !important;
-		}
 		.icons {
 			padding: 0px 0px 0px 0px;
 			margin-left: 20%;
 		}
+
 	}
 }
 
@@ -288,17 +307,43 @@ body {
 		text-align: center;
 		color: white;
 		overflow-y: visible;
+		overflow-x: hidden;
 		.text {
 			font-size: 24px;
 			margin: 0px 0px 200px 0px;
 			display: inline;
 			line-height: 170%;
 		}
+
+		q {
+  		quotes: "“" "”" "‘" "’";
+		}
+		.text::before {
+			content: open-quote;
+			color: gray;
+			font-size: 70px;
+			display: inline-block;
+			margin: none;
+			padding: none;
+
+		}
+		.text::after {
+			content: close-quote;
+			color: gray;
+			font-size: 70px;
+			display: inline-block;
+			margin: none;
+			padding: none;
+
+		}
+
 		.bigquote {
 			background: linear-gradient(to bottom right, #0F285F, #0B3A5F);
+			width: 90%;
+			float: right;
 			margin: 85px 0px 20px 0px;
 			padding: 60px 40px 60px 40px;
-			box-shadow: 10px 10px #091839;
+			box-shadow: 10px 10px rgba(9,24,57,.85);
 			line-height: 200%;
 			font-size: 17px;
 			img {
@@ -306,20 +351,31 @@ body {
 				width: 170px;
 			}
 		}
+
 		.smallquote {
 			background-color: #0F285F;
+			width: 80%;
 			margin: 20px 0px 20px 5px;
 			padding: 40px 30px 40px 30px;
 			font-size: 17px;
-			box-shadow: 10px 10px #091839;
+			box-shadow: 10px 10px rgba(9,24,57,.85);
 			line-height: 200%;
 		}
 }
 
-@media (max-width:900px) {
+@media (max-width:1180px) {
 	.quote {
 		padding: 30px 25px 20px 25px;
 
+		.bigquote {
+			width: 100%;
+			float: none;
+		}
+
+		.smallquote {
+			width: 100%;
+			float: none;
+		}
 	}
 }
 
