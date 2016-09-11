@@ -94,12 +94,13 @@ body {
         -o-transition: border-color 1s;
         -ms-transition: border-color 1s;
         -moz-transition: border-color 1s;
-        -webkit-transition: border-color 1s; }
+        -webkit-transition: border-color 1s;
+        margin-right: -4px; }
       .splash .textarea .subscribe input:focus {
         outline: none;
         border: 1px solid;
         border-color: white; }
-      .splash .textarea .subscribe button {
+      .splash .textarea .subscribe #subscribeButton {
         font-size: 14px;
         border: none;
         padding: 18px 18px 19px 22px;
@@ -109,8 +110,9 @@ body {
         /* ALLEY OOP */
         transition: background-color .2s ease-in-out;
         -moz-transition: background-color .2s ease-in-out;
-        -webkit-transition: background-color .2s ease-in-out; }
-      .splash .textarea .subscribe button:hover {
+        -webkit-transition: background-color .2s ease-in-out;
+        width: 150px; }
+      .splash .textarea .subscribe #subscribeButton:hover {
         background-color: #3060FA; }
       @media (max-width: 550px) {
         .splash .textarea .subscribe input {
@@ -118,7 +120,7 @@ body {
           border: none;
           padding: 17px 10px 17px 25px;
           font-size: 11px; }
-        .splash .textarea .subscribe button {
+        .splash .textarea .subscribe #subscribeButton {
           width: 100%;
           font-size: 12px;
           padding: 16px 18px 17px 22px; } }

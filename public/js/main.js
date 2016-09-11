@@ -1,12 +1,11 @@
 $(document).ready(() => {
-  console.log('time to get our shit together')
-
   $(".navbar-toggle").click(function(event) {
-        $(".navbar-collapse").toggle('in');
+    $(".navbar-collapse").toggle('in');
   });
-  $( "#searchForm" ).submit(function( event ) {
+  
+  $( "#emailForm" ).submit(function( event ) {
     event.preventDefault()
-    const email = $("[name='subscribeForm']").val()
+    const email = $("[name='emailform']").val()
     const valid = validateEmail(email)
     if(valid){
       subscribe(email)
@@ -18,7 +17,7 @@ $(document).ready(() => {
 })
 
 function subscribe (email) {
-  console.log('posting')
+  console.log('posting', email)
   $.ajax({
     type: 'POST',
     url: '/subscribe',
