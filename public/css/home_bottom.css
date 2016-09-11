@@ -161,11 +161,13 @@
 }
 
 #footer {
+	font-size:32px;
 	font-family: 'Montserrat Bold';
 	color: #3060fa;
 	display: inline;
 }
 #f2 {
+	font-size:32px;
 	font-family: 'Montserrat Bold';
 	color: white;
 	display: inline;
@@ -175,39 +177,14 @@
 	/*border: solid 1px white;*/
 }
 
-
-
-/*.col-2 {
-	text-align: center;
-	text-decoration: none;
-	color: #cccccc;
-}
-.col-2 a:hover {
-	color: #3060fa;
-	text-decoration: none;
-}*/
 .link {
-	font-size: 17px;
+	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	margin: 0;
 	padding: 0;
 }
-/*.col-3 {
-	text-align: center;
-}
-.col-3 span {
-	font-size: 17px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	margin: 0;
-	padding: 0;
-	margin-left: 15px;
-}
-.col-3 a:hover {
-	color: #3060fa;
-	text-decoration: none;
-}*/
+
 #head {
 	text-align: center;
 	margin: 15px;
@@ -253,14 +230,7 @@
 	.col-55 {
 		width: 56%;
 	}
-	/*.right .inner {
-		width: 100%;
-		padding: 0;
-	}
-	.left {
-		padding-left: 40px;
-		padding-right: 0px;
-	}*/
+
 	.one {
 		margin-left: 12px;
 		margin-right: 12px;
@@ -275,22 +245,10 @@
 		width: 100%;
 		padding: 0px;
 	}
-	/*.right .inner {
-		width: 50%;
-	}
-	.foot .left {
-		padding-left: 20px;
-		padding-right: 20px;
-		width: 100%;
-	}
-	.foot .right {
-		width: 100%;
-	}*/
 	.one {
 		width: 33%;
 		margin-left: 0px;
 		margin-right: 0px;
-		/*border: solid 1px white;*/
 	}
 	.two {
 		margin-left: 20px;
