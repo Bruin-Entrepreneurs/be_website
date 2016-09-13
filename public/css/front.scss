@@ -62,6 +62,9 @@ body {
 	text-align: center;
 	min-height: 100%;
     width: 100%;
+    border-top: 10px solid #f3f3f3;
+    border-left: 10px solid #f3f3f3;
+    border-right: 10px solid #f3f3f3;
     padding-top: 5px;
     padding-bottom: 80px;
 	
@@ -121,7 +124,7 @@ body {
 		    #subscribeButton {
 		    	font-size: 14px;
 		    	border: none;
-		    	padding: 18px 18px 19px 22px;
+		    	padding: 18px 18px 19px 18px;
 		    	background-color: #0F285F;
     			color: white; 
     			font-weight: 600; /* ALLEY OOP */
@@ -174,7 +177,7 @@ body {
 
 	.navi {
 	padding: 25px 20px 60px 20px;
-	margin: 0px 100px 30px 0px;
+	margin: -15px 100px 30px 0px;
 	float: right;
 	background-color: $BE-Blue;
 	box-shadow: 15px 15px #1A1A35;
@@ -309,6 +312,9 @@ body {
 		color: white;
 		overflow-y: visible;
 		overflow-x: hidden;
+		border-bottom: 10px solid #f3f3f3;
+    	border-left: 10px solid #f3f3f3;
+    	border-right: 10px solid #f3f3f3;
 		.text {
 			font-size: 24px;
 			margin: 0px 0px 200px 0px;
