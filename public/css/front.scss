@@ -124,7 +124,7 @@ body {
 		    	padding: 18px 18px 19px 22px;
 		    	background-color: #0F285F;
     			color: white; 
-    			font-weight: 600; /* ALLEY OOP */
+    			font-weight: 600; 
     			transition: background-color .2s ease-in-out;
     			-moz-transition: background-color .2s ease-in-out;
   				-webkit-transition: background-color .2s ease-in-out;
@@ -377,6 +377,75 @@ body {
 			width: 100%;
 			float: none;
 		}
+	}
+}
+
+.who {
+	text-align: center;
+	background-color: #f3f3f3;
+	padding: 50px 140px 40px 140px;
+	margin: none;
+	font-size: 16px;
+	#head {
+		font-size: 38px;
+		font-weight: 700;
+	}
+	#body {
+
+	}
+	.box {
+		text-align: center;
+		padding: 30px 10px 20px 10px;
+		margin: 0px 25% 0px 25%;
+		background-color: #0B3A5F;
+		color: #FFF;
+		border-radius: 50%;
+		width:150px;
+		height: 150px;
+		.text {
+			margin: 15px 0px 0px 0px;
+			text-align: center;
+			font-weight: 500;
+		}
+	}
+}
+
+
+
+.recruit {
+	text-align: center;
+	padding: 10px 20px 50px 20px;
+	background-color: #f3f3f3;
+	font-size: 18px;
+	width: 100%;
+
+	#head {
+		padding: none;
+		font-size: 42px;
+		font-weight: 700;
+		color: #0F285F;
+	}
+
+	.card {
+		border-color: #4c9fcd;
+		border-style: solid;
+		background-color: #FFF;
+		padding: 20px 40px 20px 40px;
+		margin: 30px 40px 20px 40px;
+	}
+
+	button {
+		border: none;
+		padding: 12px 12px 12px 12px;
+		background-color: #0F285F;	
+		color: #FFF;
+		transition: background-color .2s ease-in-out;
+    	-moz-transition: background-color .2s ease-in-out;
+  		-webkit-transition: background-color .2s ease-in-out;
+	}
+
+	button:hover {
+		background-color: $BE-Blue;
 	}
 }
 
