@@ -9,12 +9,18 @@ body {
   font-family: Avenir Next Light;
   height: 100%;
   width: 100%;
-  background: #fff;
+  background: #f3f3f3;
   margin: 0;
   line-height: 1.5;
   font-size: 14px; }
 
 #blue {
+  display: inline-block;
+  overflow-y: hidden;
+  color: #3060FA; }
+
+#blue2 {
+  display: inline;
   overflow-y: hidden;
   color: #3060FA; }
 
@@ -273,6 +279,9 @@ body {
     font-size: 17px;
     box-shadow: 10px 10px rgba(9, 24, 57, 0.85);
     line-height: 200%; }
+  @media (max-width: 550px) {
+    .quote .container {
+      width: 100%; } }
 
 @media (min-width: 1310px) {
   .quote .container {
@@ -291,7 +300,8 @@ body {
   background-color: #f3f3f3;
   padding: 50px 140px 40px 140px;
   margin: none;
-  font-size: 16px; }
+  font-size: 16px;
+  display: inline-block; }
   .who #head {
     font-size: 38px;
     font-weight: 700; }
@@ -324,8 +334,8 @@ body {
     border-color: #4c9fcd;
     border-style: solid;
     background-color: #FFF;
-    padding: 20px 40px 20px 40px;
-    margin: 30px 40px 20px 40px; }
+    padding: 20px 50px 35px 50px;
+    margin: 30px 80px 20px 80px; }
   .recruit button {
     border: none;
     padding: 12px 12px 12px 12px;
@@ -336,5 +346,12 @@ body {
     -webkit-transition: background-color .2s ease-in-out; }
   .recruit button:hover {
     background-color: #3060FA; }
+  @media (max-width: 550px) {
+    .recruit .card {
+      border-color: #4c9fcd;
+      border-style: solid;
+      background-color: #FFF;
+      padding: 20px 10px 25px 10px;
+      margin: 10px 10px 10px 10px; } }
 
 /*# sourceMappingURL=main.css.map */

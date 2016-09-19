@@ -41,19 +41,17 @@
 	font-weight: 700;
 }
 .stretch {
-	display: inline-block;
     -webkit-transform:scale(1.3,1.2); /* Safari and Chrome */
     -moz-transform:scale(1.3,1.2); /* Firefox */
     -ms-transform:scale(1.3,1.2); /* IE 9 */
     -o-transform:scale(1.3,1.2); /* Opera */
     transform:scale(1.3,1.2); /* W3C */
-    padding-left: 25px;
 }
 #l_text {
 	margin: 0;
 	padding: 40px;
 	padding-top: 0px;
-	padding-left: 100px;
+	padding-left: 60px;
 	background-color: #f3f3f3;
 	padding-bottom: 30px;
 	float: left;
@@ -62,7 +60,7 @@
 	margin: 0;
 	padding: 40px;
 	padding-top: 0px;
-	padding-right: 100px;
+	padding-right: 60px;
 	background-color: #f3f3f3;
 	padding-bottom: 30px;
 	float: right;
@@ -75,22 +73,27 @@
 	font-weight: 100;
 }
 .buttons2 {
+	float:left;
 	padding: 0;
 	margin-top: 15px;
 	margin-bottom: 0px;
 }
 .col-6 {
+	display:block;
 	padding-left: 0;
 	padding-right: 0;
 	width: 50%;
 	text-align: center;
 }
 .button {
+	float:left;
+	display: inline-block;
 	text-decoration: none;
 	color: #f3f3f3;
 	font-family: 'Open Sans';
 	font-size: 16px;
-	padding: 15px 20%;
+	padding: 15px 20px 15px 20px;
+	margin-right: 10px;
 	background-color: #0077cc;
     background: -webkit-linear-gradient(left top, #0077cc, #33aaff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #0077cc, #33aaff); /* For Opera 11.1 to 12.0 */
