@@ -6,6 +6,7 @@
 	padding: 0;
 }
 * {
+	overflow-x: hidden; 
     box-sizing: border-box;
 }
 .row::after {
@@ -116,12 +117,14 @@
 }
 
 #footer {
+	overflow-y: hidden;
 	font-size:32px;
 	font-family: 'Montserrat Bold';
 	color: #3060fa;
 	display: inline;
 }
 #f2 {
+	overflow-y: hidden;
 	font-size:32px;
 	font-family: 'Montserrat Bold';
 	color: white;
@@ -163,8 +166,7 @@
 	margin-bottom: 10px;
 }
 .two {
-	margin-left: 30px;
-	margin-right: 30px;
+	padding: 5px 10px 5px 10px;
 	display: inline-block;
 }
 #icon {
@@ -173,6 +175,10 @@
 .bottom a:hover {
 	color: #3060fa;
 	text-decoration: none;
+}
+
+.fa-lg {
+	line-height: 1.25em !important;
 }
 
 @media only screen and (max-width: 1045px){

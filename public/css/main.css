@@ -15,8 +15,8 @@ body {
   font-size: 14px; }
 
 #blue {
-  color: #3060FA;
-  display: inline; }
+  overflow-y: hidden;
+  color: #3060FA; }
 
 #fatquotation {
   color: gray;
@@ -55,27 +55,28 @@ body {
   border-top: 10px solid #f3f3f3;
   border-left: 10px solid #f3f3f3;
   border-right: 10px solid #f3f3f3;
-  padding-top: 5px;
-  padding-bottom: 80px; }
+  padding-top: 4px;
+  padding-bottom: 72px; }
   .splash .textarea {
     max-width: 700px;
     width: 100%;
     float: top left;
-    padding: 275px 25px 0px 150px;
+    padding: 250px 22px 0px 135px;
     text-align: left; }
     .splash .textarea h1 {
+      overflow-y: hidden;
       font-family: Montserrat Bold !important;
-      font-size: 32px;
+      font-size: 28px;
       font-weight: 500 !important;
       /* ALLEY OOP */
       text-align: left;
       color: white;
-      margin: 0px 0px 40px 0px;
+      margin: 0px 0px 36px 0px;
       display: inline-block; }
     .splash .textarea .mission {
-      margin: 0px 20px 0px 0px;
+      margin: 0px 18px 0px 0px;
       text-shadow: 2px 2px black;
-      font-size: 42px;
+      font-size: 37px;
       color: white;
       opacity: .75;
       transition: width 1s;
@@ -84,13 +85,13 @@ body {
       -moz-transition: width 1s;
       -webkit-transition: width 1s; }
     .splash .textarea .subscribe {
-      margin-top: 20px; }
+      margin-top: 18px; }
       .splash .textarea .subscribe input {
         width: 350px;
         border: none;
-        padding: 20px 10px 20px 25px;
+        padding: 18px 9px 18px 22px;
         background-color: black;
-        font-size: 12px;
+        font-size: 11px;
         color: white;
         opacity: .85;
         transition: border-color 1s;
@@ -104,9 +105,9 @@ body {
         border: 1px solid;
         border-color: white; }
       .splash .textarea .subscribe #subscribeButton {
-        font-size: 14px;
+        font-size: 12px;
         border: none;
-        padding: 18px 18px 19px 18px;
+        padding: 17px 17px 18px 17px;
         background-color: #0F285F;
         color: white;
         font-weight: 600;
@@ -131,7 +132,7 @@ body {
       padding: 30px 0px 20px 0px; }
       .splash .textarea .icons a {
         display: inline-block;
-        margin: 0px 67px 0px 3px; }
+        margin: 0px 50px 0px 3px; }
       .splash .textarea .icons .fa {
         color: white;
         transition: color .2s ease-in-out;
@@ -140,24 +141,24 @@ body {
       .splash .textarea .icons .fa:hover {
         color: #3060FA; }
   .splash .navi {
-    padding: 25px 20px 60px 20px;
-    margin: -15px 100px 30px 0px;
+    padding: 22px 18px 42px 18px;
+    margin: -15px 90px 27px 0px;
     float: right;
     background-color: #3060FA;
-    box-shadow: 15px 15px #1A1A35; }
+    box-shadow: 13px 13px #1A1A35; }
     .splash .navi ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      width: 300px;
+      width: 280px;
       height: 100%;
       visibility: visible; }
     .splash .navi li a {
-      padding: 18px 0px 18px 0px;
+      padding: 16px 0px 16px 0px;
       display: block;
       color: white;
       text-decoration: none;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 100;
       opacity: .8;
       transition: .3s;
@@ -230,6 +231,8 @@ body {
   border-bottom: 10px solid #f3f3f3;
   border-left: 10px solid #f3f3f3;
   border-right: 10px solid #f3f3f3; }
+  .quote .container {
+    width: 1050px; }
   .quote .text {
     font-size: 24px;
     margin: 0px 0px 200px 0px;
@@ -272,6 +275,9 @@ body {
     box-shadow: 10px 10px rgba(9, 24, 57, 0.85);
     line-height: 200%; }
 
+@media (min-width: 1310px) {
+  .quote .container {
+    width: 1200px !important; } }
 @media (max-width: 1180px) {
   .quote {
     padding: 30px 25px 20px 25px; }
