@@ -265,15 +265,6 @@ body {
     box-shadow: 10px 10px rgba(9, 24, 57, 0.85);
     line-height: 200%; }
 
-@media (max-width: 1180px) {
-  .quote {
-    padding: 30px 25px 20px 25px; }
-    .quote .bigquote {
-      width: 100%;
-      float: none; }
-    .quote .smallquote {
-      width: 100%;
-      float: none; } }
 .who {
   text-align: center;
   background-color: #f3f3f3;
@@ -324,5 +315,29 @@ body {
     -webkit-transition: background-color .2s ease-in-out; }
   .recruit button:hover {
     background-color: #3060FA; }
+
+@media (max-width: 1180px) {
+  .quote {
+    padding: 30px 25px 20px 25px; }
+    .quote .bigquote {
+      width: 100%;
+      float: none; }
+    .quote .smallquote {
+      width: 100%;
+      float: none; }
+
+  .who {
+    padding: 50px 120px 40px 120px; }
+    .who #head {
+      font-size: 32px;
+      font-weight: 700; } }
+@media (max-width: 550px) {
+  .who {
+    padding: 50px 40px 40px 40px; }
+    .who #head {
+      font-size: 28px;
+      font-weight: 700; }
+    .who .box {
+      margin: 0px 25% 0px 60%; } }
 
 /*# sourceMappingURL=main.css.map */

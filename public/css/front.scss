@@ -364,21 +364,6 @@ body {
 		}
 }
 
-@media (max-width:1180px) {
-	.quote {
-		padding: 30px 25px 20px 25px;
-
-		.bigquote {
-			width: 100%;
-			float: none;
-		}
-
-		.smallquote {
-			width: 100%;
-			float: none;
-		}
-	}
-}
 
 .who {
 	text-align: center;
@@ -446,6 +431,45 @@ body {
 
 	button:hover {
 		background-color: $BE-Blue;
+	}
+}
+
+@media (max-width:1180px) {
+	.quote {
+		padding: 30px 25px 20px 25px;
+
+		.bigquote {
+			width: 100%;
+			float: none;
+		}
+
+		.smallquote {
+			width: 100%;
+			float: none;
+		}
+	}
+
+	.who {
+		padding: 50px 120px 40px 120px;
+		#head {
+			font-size: 32px;
+			font-weight: 700;
+		}
+	}
+}
+
+@media (max-width:550px) {
+	
+	.who {
+		padding: 50px 40px 40px 40px;
+
+		#head {
+			font-size: 28px;
+			font-weight: 700;
+		}
+		.box {
+			margin: 0px 25% 0px 60%;
+		}
 	}
 }
 
