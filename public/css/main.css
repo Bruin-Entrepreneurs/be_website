@@ -107,7 +107,6 @@ body {
         background-color: #0F285F;
         color: white;
         font-weight: 600;
-        /* ALLEY OOP */
         transition: background-color .2s ease-in-out;
         -moz-transition: background-color .2s ease-in-out;
         -webkit-transition: background-color .2s ease-in-out;
@@ -275,5 +274,32 @@ body {
     .quote .smallquote {
       width: 100%;
       float: none; } }
+.who {
+  text-align: center;
+  background-color: #0E1326;
+  padding: 10px 40px 40px 40px;
+  margin: none;
+  color: #FFF;
+  font-size: 16px; }
+  .who #head {
+    font-size: 32px;
+    font-weight: 700; }
+
+.recruit {
+  text-align: center;
+  padding: 10px 20px 20px 20px;
+  background-color: #f3f3f3;
+  font-size: 18px;
+  width: 100%; }
+  .recruit #head {
+    padding: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #0F285F; }
+  .recruit button {
+    border: none;
+    padding: 10px 10px 10px 10px;
+    background-color: #3060FA;
+    color: #FFF; }
 
 /*# sourceMappingURL=main.css.map */

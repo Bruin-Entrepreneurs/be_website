@@ -124,7 +124,7 @@ body {
 		    	padding: 18px 18px 19px 22px;
 		    	background-color: #0F285F;
     			color: white; 
-    			font-weight: 600; /* ALLEY OOP */
+    			font-weight: 600; 
     			transition: background-color .2s ease-in-out;
     			-moz-transition: background-color .2s ease-in-out;
   				-webkit-transition: background-color .2s ease-in-out;
@@ -377,6 +377,46 @@ body {
 			width: 100%;
 			float: none;
 		}
+	}
+}
+
+.who {
+	text-align: center;
+	background-color: #0E1326;
+	padding: 10px 40px 40px 40px;
+	margin: none;
+	color: #FFF;
+	font-size: 16px;
+	#head {
+		font-size: 32px;
+		font-weight: 700;
+	}
+	#body {
+	}
+}
+
+.recruit {
+	text-align: center;
+	padding: 10px 20px 20px 20px;
+	background-color: #f3f3f3;
+	font-size: 18px;
+	width: 100%;
+
+	#head {
+		padding: none;
+		font-size: 22px;
+		font-weight: 700;
+		color: #0F285F;
+	}
+
+	button {
+		border: none;
+		padding: 10px 10px 10px 10px;
+		background-color: $BE-Blue;	
+		color: #FFF;
+		transition: background-color .2s ease-in-out;
+    	-moz-transition: background-color .2s ease-in-out;
+  		-webkit-transition: background-color .2s ease-in-out;
 	}
 }
 
