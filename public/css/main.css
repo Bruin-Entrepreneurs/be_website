@@ -296,6 +296,7 @@ body {
       width: 100%;
       float: none; } }
 .who {
+  overflow-x: visible !important;
   text-align: center;
   background-color: #f3f3f3;
   padding: 50px 180px 40px 180px;
@@ -318,6 +319,26 @@ body {
       margin: 15px 0px 0px 0px;
       text-align: center;
       font-weight: 500; }
+  @media (max-width: 1180px) {
+    .who {
+      overflow-x: none !important;
+      padding: 50px 120px 40px 120px; }
+      .who #head {
+        font-size: 32px;
+        font-weight: 700; }
+      .who .box .text {
+        overflow-x: visible !important; } }
+  @media (max-width: 550px) {
+    .who {
+      overflow-x: none !important;
+      padding: 50px 40px 40px 40px; }
+      .who #head {
+        font-size: 28px;
+        font-weight: 700; }
+      .who .box {
+        margin: 0px 25% 0px 60%; }
+        .who .box .text {
+          overflow: none !important; } }
 
 .recruit {
   text-align: center;

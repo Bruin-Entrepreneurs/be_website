@@ -409,8 +409,8 @@ body {
 		}
 	}
 }
-
 .who {
+	overflow-x: visible!important; 
 	text-align: center;
 	background-color: #f3f3f3;
 	padding: 50px 180px 40px 180px;
@@ -436,8 +436,34 @@ body {
 			font-weight: 500;
 		}
 	}
+	@media (max-width: 1180px ) {
+		overflow-x: none !important; 
+		padding: 50px 120px 40px 120px;
+		#head {
+			font-size: 32px;
+			font-weight: 700;
+		}
+		.box {
+			.text {
+				overflow-x: visible !important; 
+			}
+		}
+	}
+	@media (max-width: 550px) {
+		overflow-x: none!important;
+		padding: 50px 40px 40px 40px;
+		#head {
+			font-size: 28px;
+			font-weight: 700;
+		}
+		.box {
+			margin: 0px 25% 0px 60%;
+			.text {
+				overflow: none !important;
+			}
+		}
+	}
 }
-
 
 
 .recruit {
