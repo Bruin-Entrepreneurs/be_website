@@ -379,6 +379,11 @@ body {
 			box-shadow: 10px 10px rgba(9,24,57,.85);
 			line-height: 200%;
 		}
+		@media (max-width: 855px) {
+			.container {
+				width:100%;
+			}
+	}
 		@media (max-width: 550px) {
 			.container {
 				width:100%;
@@ -449,7 +454,7 @@ body {
 			}
 		}
 	}
-	@media (max-width: 550px) {
+	@media (max-width: 600px) {
 		overflow-x: none!important;
 		padding: 50px 40px 40px 40px;
 		#head {
