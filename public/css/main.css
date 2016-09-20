@@ -280,11 +280,15 @@ body {
     box-shadow: 10px 10px rgba(9, 24, 57, 0.85);
     line-height: 200%; }
   @media (max-width: 855px) {
-    .quote .container {
-      width: 100%; } }
+    .quote {
+      padding: 30px 25px 20px 25px; }
+      .quote .container {
+        width: 100%; } }
   @media (max-width: 550px) {
-    .quote .container {
-      width: 100%; } }
+    .quote {
+      padding: 30px 25px 20px 25px; }
+      .quote .container {
+        width: 100%; } }
 
 @media (min-width: 1310px) {
   .quote .container {
