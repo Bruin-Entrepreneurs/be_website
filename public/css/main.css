@@ -279,6 +279,9 @@ body {
     font-size: 17px;
     box-shadow: 10px 10px rgba(9, 24, 57, 0.85);
     line-height: 200%; }
+  @media (max-width: 855px) {
+    .quote .container {
+      width: 100%; } }
   @media (max-width: 550px) {
     .quote .container {
       width: 100%; } }
@@ -289,6 +292,8 @@ body {
 @media (max-width: 1180px) {
   .quote {
     padding: 30px 25px 20px 25px; }
+    .quote .container {
+      width: 100%; }
     .quote .bigquote {
       width: 100%;
       float: none; }
@@ -328,7 +333,7 @@ body {
         font-weight: 700; }
       .who .box .text {
         overflow-x: visible !important; } }
-  @media (max-width: 550px) {
+  @media (max-width: 600px) {
     .who {
       overflow-x: none !important;
       padding: 50px 40px 40px 40px; }

@@ -402,7 +402,9 @@ body {
 @media (max-width:1180px) {
 	.quote {
 		padding: 30px 25px 20px 25px;
-
+		.container {
+			width:100%
+		}
 		.bigquote {
 			width: 100%;
 			float: none;
