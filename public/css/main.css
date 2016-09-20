@@ -315,6 +315,8 @@ body {
   .who #head {
     font-size: 38px;
     font-weight: 700; }
+  .who #body {
+    text-align: left; }
   .who .box {
     text-align: center;
     padding: 30px 10px 20px 10px;
@@ -345,7 +347,7 @@ body {
         font-size: 28px;
         font-weight: 700; }
       .who .box {
-        margin: 0px 25% 0px 60%; }
+        margin: 0px 0px 0px 0px; }
         .who .box .text {
           overflow: none !important; } }
 

@@ -430,6 +430,9 @@ body {
 		font-size: 38px;
 		font-weight: 700;
 	}
+	#body {
+		text-align: left;
+	}
 	.box {
 		text-align: center;
 		padding: 30px 10px 20px 10px;
@@ -466,7 +469,7 @@ body {
 			font-weight: 700;
 		}
 		.box {
-			margin: 0px 25% 0px 60%;
+			margin: 0px 0px 0px 0px;
 			.text {
 				overflow: none !important;
 			}
