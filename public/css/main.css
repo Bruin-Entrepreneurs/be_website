@@ -378,6 +378,8 @@ body {
     -webkit-transition: background-color .2s ease-in-out; }
   .recruit button:hover {
     background-color: #3060FA; }
+    .recruit button:hover a {
+      text-decoration: none; }
   @media (max-width: 550px) {
     .recruit .card {
       border-color: #4c9fcd;

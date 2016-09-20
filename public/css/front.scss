@@ -512,6 +512,9 @@ body {
 
 	button:hover {
 		background-color: $BE-Blue;
+		a {
+			text-decoration: none;
+		}
 	}
 
 	@media (max-width: 550px) {
