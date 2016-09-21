@@ -518,6 +518,9 @@ body {
 	}
 
 	@media (max-width: 550px) {
+		#head {
+			font-size: 32px;
+		}
 		.card {
 			border-color: #4c9fcd;
 			border-style: solid;
