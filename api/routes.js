@@ -33,6 +33,11 @@ router.get('/', (req, res) => {
   res.render('index')
 })
 
+// router.get('/accelerator', (req, res) => {
+//   res.render('bventures')
+// })
+
+
 // HTTP Requests
 
 router.post('/subscribe', mailchimpController.subscribe)
