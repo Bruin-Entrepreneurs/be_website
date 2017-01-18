@@ -8,6 +8,8 @@ const mcapi = require('mailchimp-api')
 const app = new express()
 const routes = require('./api/routes')
 
+// hao heroku init commit
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.set('view engine', 'html')
