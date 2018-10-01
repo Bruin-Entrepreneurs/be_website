@@ -24,19 +24,12 @@ let router = express.Router()
 const config = require('../config')
 
 // Declare controllers here
-
 const mailchimpController = require('./controllers/mailchimpController')
 
 // Declare routes below
-
 router.get('/', (req, res) => {
   res.render('index')
 })
-
-// router.get('/accelerator', (req, res) => {
-//   res.render('bventures')
-// })
-
 
 // HTTP Requests
 

@@ -8,8 +8,6 @@ const mcapi = require('mailchimp-api')
 const app = new express()
 const routes = require('./api/routes')
 
-// hao heroku init commit
-
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.set('view engine', 'html')
@@ -28,22 +26,9 @@ app.use((req, res, next) => {
 app.use('/', routes)
 
 // Mailchimp integration
-
 global.mc = new mcapi.Mailchimp(config.MAILCHIMP_API_KEY)
 
-// Mongo configuration
-
-const mongoose = require('mongoose')
-mongoose.connect(config.MONGOURL, (error) => {
-  if (error) {
-    console.error('Mongoose Connection: ERROR')
-    throw error;
-  }
-  console.log('Mongoose Connection: Success')
-})
-
 // Fire up app
-
 app.listen(app.get('port'), () => {
   console.log('BE Website is running on port', app.get('port'))
 })
